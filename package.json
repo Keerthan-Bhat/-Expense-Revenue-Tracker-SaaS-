@@ -9,7 +9,7 @@
     "lint": "eslint",
     "db:migrate": "prisma migrate dev",
     "db:push": "prisma db push",
-    "db:seed": "node prisma/seed-pg.cjs",
+    "db:seed": "npx tsx prisma/seed.mts",
     "db:studio": "prisma studio",
     "db:generate": "prisma generate"
   },
